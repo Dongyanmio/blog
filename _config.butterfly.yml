@@ -5,7 +5,7 @@
 nav:
   logo: /images/avatar.png # image
   display_title: true
-  fixed: false # fixed navigation bar
+  fixed: true # fixed navigation bar
 
 # Menu 目錄
 menu:
