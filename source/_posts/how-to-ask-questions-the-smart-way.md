@@ -1,5 +1,5 @@
 ---
-title: 提问的智慧 - 简体中午
+title: 提问的智慧 - 简体中文
 ---
 # 提问的智慧
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pulls)

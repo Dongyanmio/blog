@@ -454,7 +454,7 @@ valine:
 waline:
   serverURL: http://waline.zeroctagon.top/ # Waline server address url
   bg: # waline background
-  pageview: true
+  pageview: false
   option:
 
 # utterances
