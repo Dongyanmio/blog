@@ -1,6 +1,16 @@
 ---
 title: 提问的智慧 - 简体中文
+date: 2015-03-29 00:00:00
+updated: 2023-12-05 00:00:00
+tags: "转载" 
+description: 本指南将教你如何正确地提问以获得你满意的答案。
+copyright_author: Ryan Wu
+copyright_author_href: https://github.com/ryanhanwu
+copyright_url: https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md
+copyright_info: Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen<br>本指南英文版版权为 Eric S. Raymond, Rick Moen 所有。<br>Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu<br>本中文指南是基于原文 3.10 版以及 2010 年由 Gasolin 所翻译版本的最新翻译；
 ---
+> 本指南不提供有关本人任何项目的实际支持服务！
+
 # 提问的智慧
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pulls)
 

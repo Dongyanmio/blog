@@ -14,6 +14,7 @@ menu:
   标签: /tags/ || fas fa-tags
   友情链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
+  开往: https://www.travellings.cn/go.html || fas fa-train-subway
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -135,7 +136,7 @@ photofigcaption: false
 copy:
   enable: true
   copyright:
-    enable: false
+    enable: true
     limit_count: 50
 
 # Post
