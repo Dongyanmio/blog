@@ -1,0 +1,19 @@
+.pristine-small-padding {
+  .VPDoc .content {
+    max-width: 90% !important;
+  }
+}
+
+.pristine-pagefoot-upylogo {
+  display: inline-block;
+  vertical-align: -0.45rem;
+  width: 2.9503311258rem;
+  height: 1.5rem;
+}
+
+.pristine-pagefoot-moelogo {
+  display: inline-block;
+  vertical-align: -0.2rem;
+  width: 1rem;
+  height: 1rem;
+}

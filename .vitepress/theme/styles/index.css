@@ -1,1 +1,35 @@
-@import "./var.css"
+@import "./var.css";
+@import "./home.css";
+@import "./pristine.css";
+@import url("https://cdnjs.snrat.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css");
+
+.VPContent {
+  background-color: #f7f9fe;
+}
+
+html.dark .VPContent {
+  background-color: #161618;
+}
+
+.VPFeature {
+  background-color: #ffffff !important;
+}
+
+html.dark .VPFeature {
+  background-color: #1b1b1f !important;
+}
+
+.line-numbers-mode {
+  border-radius: 12px !important;
+  border: rgba(30, 41, 59, calc(0.1 / 1)) solid 1px !important;
+  background-color: #ffffff !important;
+}
+
+html.dark .line-numbers-mode {
+  border: #3d3d3f solid 1px !important;
+  background-color: #1b1b1f !important;
+}
+
+html.dark .vp-doc .line-numbers-wrapper {
+  border-right: #3d3d3f solid 1px !important;
+}

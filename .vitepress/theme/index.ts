@@ -1,23 +1,31 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from "vue";
 
+// CSS 样式文件
 import "./styles/index.css";
-import 'virtual:group-icons.css'
+import "virtual:group-icons.css";
 
+// VitePress 官方包
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import { useData, useRoute } from "vitepress";
 
+// VitePress 插件
 import giscusTalk from "vitepress-plugin-comment-with-giscus";
+
+// 自定义组件
+import PostPage from "./pages/PostPage.vue";
+import Friend from "./pages/Friend.vue";
+
+// 自定义插槽
+import Layout from "./Layout.vue";
+
 export default {
   extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    });
-  },
+  Layout: Layout,
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component("PostPage", PostPage);
+    app.component("Friend", Friend);
   },
   setup() {
     const route = useRoute();
@@ -37,10 +45,10 @@ export default {
         frontmatter,
         route,
       },
-      //默认值为true，表示已启用，此参数可以忽略；
-      //如果为false，则表示未启用
-      //您可以使用“comment:true”序言在页面上单独启用它
-      true
+      // 默认值为 true，表示已启用，此参数可以忽略；
+      // 如果为 false，则表示未启用
+      // 您可以使用 “comment:true” 序言在页面上单独启用它
+      true,
     );
   },
 } satisfies Theme;

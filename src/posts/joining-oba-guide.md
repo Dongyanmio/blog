@@ -6,9 +6,11 @@ description: "本文介绍了如何搭建 OpenBMCLAPI 节点。"
 outline:
   level: [2, 4]
 ---
+
 > [!WARNING] ⚠️ 请注意
 > 你需要有电脑、服务器基础知识，以及一定的操作能力。<br>
 > 否则，我建议现在就关闭此文章
+
 ## 前言
 
 > BMCLAPI 是 [@bangbang93](https://github.com/bangbang93) 开发的 BMCL 的一部分，用于解决国内线路对 Forge 和 Minecraft 官方使用的 Amazon S3 速度缓慢的问题。BMCLAPI 是对外开放的，所有需要 Minecraft 资源的启动器均可调用。
@@ -62,7 +64,7 @@ bangbang93: CLUSTER_ID = ************************
 
 > [!WARNING] ⚠️ 请注意
 > 部分内容来源于节点端的 官方文档，请确保你已经了解相关内容。<br>
-> 完全复制部分会有 `CV` 标记，来自 AI 的内容会有 `AI` 标记
+> 特殊标记：完全复制部分会有 `CV` 标记
 
 ### Node 端
 
@@ -158,6 +160,7 @@ CLUSTER_PUBLIC_PORT = 对外端口（可选）
 3. 如果配置无误的话，运行程序，就会开始拉取文件，拉取完成后就会开始等待服务器分发请求了。
 
 ##### 附 - AList 配置
+
 ```dotenv
 CLUSTER_STORAGE=alist
 CLUSTER_STORAGE_OPTIONS={"url":"http://alist.application.svc:5244/dav","basePath":"openbmclapi","username":"openbmclapi","password":"openbmclapi" }
@@ -165,5 +168,7 @@ CLUSTER_STORAGE_OPTIONS={"url":"http://alist.application.svc:5244/dav","basePath
 CLUSTER_STORAGE=alist
 CLUSTER_STORAGE_OPTIONS={"url":"http://127.0.0.1:5244/dav","basePath":"/BMCLAPI-Mirrors/189Cloud/download","username":"admin","password":"123456" }
 ```
+
 ## 后言
+
 先不写了（先水一篇再说😄），后面有时间慢慢补😡
