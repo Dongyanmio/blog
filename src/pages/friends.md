@@ -69,6 +69,12 @@ const friendList = [
     avatar: "https://im.youchuande.cn/i/2024/09/20/66ed709e7fb14.jpg",
     link: "https://blog.youchuande.cn/",
   },
+  {
+    name: "零狼 の 小窝",
+    description: "温暖的小窝",
+    avatar: "https://zerowolf.cn/wp-content/uploads/2025/01/logo.jpg",
+    link: "https://zerowolf.cn/",
+  },
 ]
 </script>
 

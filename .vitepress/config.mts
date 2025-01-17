@@ -33,6 +33,10 @@ export default defineConfig({
         text: "<i class='bi bi-link-45deg'></i> 友情链接",
         link: "/pages/friends/",
       },
+      {
+        text: "<i class='bi bi-file-person-fill'></i> 关于",
+        link: "/pages/about/",
+      },
     ],
 
     search: {

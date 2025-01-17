@@ -6,8 +6,8 @@ const { frontmatter, theme } = useData();
 
 <template>
     <ClientOnly>
-        <center v-if="frontmatter.title">
+        <div v-if="frontmatter.title" style="text-align: center;">
             <h1 style="letter-spacing: -0.02em;line-height: 40px;font-size: 32px;"><b>{{ frontmatter.title }}</b></h1>
-        </center>
+        </div>
     </ClientOnly>
 </template>
