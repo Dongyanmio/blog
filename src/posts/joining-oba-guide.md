@@ -1,8 +1,8 @@
 ---
-title: 某科学的搭建 OpenBMCLAPI 指南
+title: 搭建 OpenBMCLAPI 指南
 date: 2024-11-03T00:00:00+08:00
 tags: ["PCDN", "OpenBMCLAPI"]
-description: "本文介绍了如何搭建 OpenBMCLAPI 节点。"
+description: "（仅供主题测试，可能不准确）本文介绍了如何搭建 OpenBMCLAPI 节点。"
 outline:
   level: [2, 4]
 ---

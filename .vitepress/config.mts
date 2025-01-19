@@ -31,12 +31,18 @@ export default defineConfig({
       },
       {
         text: "<i class='bi bi-link-45deg'></i> 友情链接",
-        link: "/pages/friends/",
+        link: "/pages/friends",
+      },
+      {
+        text: "<i class='bi bi-folder-fill'></i> 项目",
+        items: [
+          { text: "<i class='bi bi-globe'></i> D453-DN42", link: "/projects/dn42" },
+        ]
       },
       {
         text: "<i class='bi bi-file-person-fill'></i> 关于",
-        link: "/pages/about/",
-      },
+        link: "/pages/about",
+      }
     ],
 
     search: {
