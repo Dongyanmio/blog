@@ -1,21 +1,6 @@
-<script setup lang="ts">
+<script setup>
 import FriendCard from '../components/FriendCard.vue';
-
-type FriendInfo = {
-    name: string;
-    description: string;
-    avatar: string;
-    url: string;
-}
-
-defineProps({
-    friendList: {
-        type: Array as () => FriendInfo[],
-        required: true
-    }
-})
-
-
+import { data as friendList } from '../friends.data.ts'
 </script>
 
 <template>
