@@ -34,7 +34,6 @@ defineProps({
 
 html.dark .pristine-friendcard {
     border: #3d3d3f solid 1px;
-    border-radius: 10px;
     background-color: #1b1b1f
 }
 

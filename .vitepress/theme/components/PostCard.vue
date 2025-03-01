@@ -53,23 +53,30 @@ const date = new Date(info.date_string);
 
 <style>
 .pristine-postcard {
-    margin-top: 20px;
+    border-radius: 10px;
+
     color: black;
+    background-color: white;
+    border: rgba(30, 41, 59, calc(.1/ 1)) solid 1px;
 }
 
 html.dark .pristine-postcard {
     color: white;
+    border: #3d3d3f solid 1px;
+    background-color: #1b1b1f
 }
 
 .pristine-postcard-main {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
 }
 
 .pristine-postcard-main h3 {
     font-size: 1.25rem;
     /* 调整字体大小 */
-    margin-top: 10px;
+    margin-top: 0px;
     color: #3451B2;
 }
 

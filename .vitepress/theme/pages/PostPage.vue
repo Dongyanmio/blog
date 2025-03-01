@@ -14,4 +14,17 @@ posts.sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
   </div>
 </template>
 
-<style></style>
+<style>
+.pristine-postlist {
+  margin-top: 1.25em;
+  display: flex;
+  flex-wrap: wrap;
+  /* 允许换行 */
+  gap: 0.75em;
+  /* 卡片之间的间距 */
+}
+
+.pristine-postlist-item {
+  width: 100%;
+}
+</style>
