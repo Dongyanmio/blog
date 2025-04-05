@@ -59,7 +59,7 @@ const data = {
                             </div>
                             <div class="grid flex-1 text-left text-sm leading-tight">
                                 <span class="truncate font-semibold">冬烟 の 小窝</span>
-                                <span class="truncate text-xs">你猜，我猜你肯定猜不到嘿嘿...</span>
+                                <span class="truncate text-xs">柳庭风静人眠昼，昼眠人静风庭柳。</span>
                             </div>
                         </a>
                     </SidebarMenuButton>

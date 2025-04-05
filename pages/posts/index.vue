@@ -3,7 +3,7 @@ const allPosts = await queryCollection('blog').order('date', 'DESC').all()
 
 useSeoMeta({
     title: `文章 | 冬烟 の 小窝`,
-    description: `你猜，我猜你肯定猜不到嘿嘿...`,
+    description: `柳庭风静人眠昼，昼眠人静风庭柳。`,
 })
 </script>
 

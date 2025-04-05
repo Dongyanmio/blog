@@ -3,7 +3,7 @@ import friends from '~/content/friends';
 
 useSeoMeta({
     title: `友情链接 | 冬烟 の 小窝`,
-    description: `你猜，我猜你肯定猜不到嘿嘿...`,
+    description: `柳庭风静人眠昼，昼眠人静风庭柳。`,
 })
 </script>
 

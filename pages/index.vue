@@ -1,3 +1,10 @@
+<script setup lang="ts">
+useSeoMeta({
+    title: `冬烟 の 小窝`,
+    description: `柳庭风静人眠昼，昼眠人静风庭柳。`,
+})
+</script>
+
 <template>
     <NuxtLayout>
         <template #pagename>
