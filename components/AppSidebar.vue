@@ -42,7 +42,12 @@ const data = {
             title: '萌 ICP 备 20240453 号',
             url: 'https://icp.gov.moe/?keyword=20240453',
             icon: Info,
-        }
+        },
+        {
+            title: '团 ICP 备 20250453 号',
+            url: 'https://icp.cutetuan.cn/id.php?keyword=20250453',
+            icon: Info,
+        },
     ],
 }
 </script>
@@ -73,6 +78,12 @@ const data = {
         <SidebarFooter>
             <ClientOnly>
                 <AppModeSwitch class="w-full" />
+                <div>
+                    <a href="https://vercel.com/">
+                        <img src="https://img.shields.io/badge/Vercel-%E6%8F%90%E4%BE%9B%20%E9%9D%99%E6%80%81%E6%89%98%E7%AE%A1%20%E6%9C%8D%E5%8A%A1-black?logo=vercel"
+                            alt="本网站由 Vercel 提供 静态托管 服务">
+                    </a>
+                </div>
                 <div>
                     <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
                         <img src="https://img.shields.io/badge/%E5%8F%88%E6%8B%8D%E4%BA%91-%E6%8F%90%E4%BE%9B%20CDN%20%E5%8A%A0%E9%80%9F/%E4%BA%91%E5%AD%98%E5%82%A8%E6%9C%8D%E5%8A%A1-00a0ff"
