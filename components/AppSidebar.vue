@@ -44,7 +44,7 @@ const data = {
             icon: Info,
         },
         {
-            title: '团 ICP 备 20250333 号',
+            title: '团 ICP 备 20253333 号',
             url: 'https://icp.xn--kiv.fun/id.php?keyword=20253333',
             icon: Info,
         },
