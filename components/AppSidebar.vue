@@ -44,8 +44,8 @@ const data = {
             icon: Info,
         },
         {
-            title: '团 ICP 备 20250453 号',
-            url: 'https://icp.cutetuan.cn/id.php?keyword=20250453',
+            title: '团 ICP 备 20250333 号',
+            url: 'https://icp.xn--kiv.fun/id.php?keyword=20253333',
             icon: Info,
         },
     ],
