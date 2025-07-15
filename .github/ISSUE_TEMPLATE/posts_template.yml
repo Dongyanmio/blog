@@ -1,0 +1,32 @@
+name: 撰写新文章
+description: 请填写以下信息以提交新的文章。
+labels: []
+body:
+  - type: input
+    id: post-slug
+    attributes:
+      label: 文章 Slug
+      description: 请填写文章的 Slug（Slug 是文章的唯一标识符，无法重复）`。
+      placeholder: "示例: hello-world"
+    validations:
+      required: true
+  - type: input
+    id: post-description
+    attributes:
+      label: 文章描述
+      description: 请填写文章的简短描述。
+      placeholder: "其实...你可以用 DeepSeek 来生成描述的..."
+    validations:
+      required: true
+  - type: textarea
+    id: post-markdown
+    validations:
+      required: true
+    attributes:
+      label: 正文内容
+      description: 请在此处填写文章的 Markdown 内容。（请勿删除首尾标识符）
+      value: |
+        <!-- BEGIN POST MARKDOWN -->
+        
+
+        <!-- END POST MARKDOWN -->
