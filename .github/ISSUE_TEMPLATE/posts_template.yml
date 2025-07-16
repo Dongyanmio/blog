@@ -6,16 +6,18 @@ body:
     id: post-slug
     attributes:
       label: 文章 Slug
-      description: 请填写文章的 Slug（Slug 是文章的唯一标识符，无法重复）`。
-      placeholder: "示例: hello-world"
+      description: 用数字 + 字母来概括你这篇文章的内容？（请勿删除首尾标识符）`。
+      value: |
+        <!-- BEGIN POST SLUG --><!-- END POST SLUG -->
     validations:
       required: true
   - type: input
     id: post-description
     attributes:
       label: 文章描述
-      description: 请填写文章的简短描述。
-      placeholder: "其实...你可以用 DeepSeek 来生成描述的..."
+      description: 其实...你可以用 DeepSeek 来生成描述的...（请勿删除首尾标识符）
+      value: |
+        <!-- BEGIN POST DESCRIPTION --><!-- END POST DESCRIPTION -->
     validations:
       required: true
   - type: textarea
